@@ -26,7 +26,7 @@ This page is used for collecting information and resources related to MPAS with 
 | [官方支持论坛 / Support Forum](https://forum.mmm.ucar.edu/) | 搜索编译、运行、物理和后处理问题 |
 | [相关论文 / Publications](https://www2.mmm.ucar.edu/projects/mpas/site/publications.html) | 查找模型方法及应用研究 |
 
-## What is MPAS
+## What Is MPAS?
 
 MPAS - Model for Prediction Across Scales
 它包含共享的软件框架，以及大气、海洋、海冰和陆冰等模型组件。
@@ -36,14 +36,14 @@ MPAS - Model for Prediction Across Scales
 参考：[官方源码仓库介绍](https://github.com/MPAS-Dev/MPAS-Model)。
 MPAS-Urban：DOI: 10.22541/essoar.15007108/v1
 
-## MPAS-Atmosphere 的基本特点
+## Key Features of MPAS-Atmosphere
 
-### 非静力大气模型 / Nonhydrostatic Model
+### Nonhydrostatic Model
 
 MPAS-A 求解全可压缩、非静力的大气运动方程。
 它可以用于全球模拟，也支持有限区域模拟。
 
-### 非结构化网格 / Unstructured Mesh
+### Unstructured Mesh
 
 水平网格采用质心 Voronoi 网格。
 
@@ -52,7 +52,7 @@ MPAS-A 求解全可压缩、非静力的大气运动方程。
 
 在全球变分辨率模拟中，可以在同一张网格内对关注区域加密。
 
-### 动力与物理 / Dynamics and Physics
+### Dynamics and Physics
 
 - **动力框架**：计算大气运动以及相关的输送和时间演化。
 - **物理参数化**：表示辐射、云微物理、边界层、陆面等过程。
@@ -61,7 +61,7 @@ MPAS-A 求解全可压缩、非静力的大气运动方程。
 
 参考：[官方模型概览](https://www2.mmm.ucar.edu/projects/mpas/site/documentation/mpas_overview.html)。
 
-## 一次模拟的基本流程
+## Basic Simulation Workflow
 
 1. 准备编译环境，生成模型可执行文件。
 2. 准备网格、静态地理数据和所需气象输入。

@@ -6,7 +6,7 @@ These notes cover my experience with MPAS,
 including installation, model configuration,
 source code, and experiments.
 
-## 学习目标
+## Learning Goals
 
 - model的组成架构
 - 记录编译、配置和运行中遇到的问题。
@@ -14,7 +14,14 @@ source code, and experiments.
 
 ```{toctree}
 :maxdepth: 2
-:caption: 学习内容 / Contents
+:caption: Contents
 
-overview
+getting-started/index
+model-structure/index
+configuration/index
+workflow/index
+mpas-urban/index
+experiments/index
+troubleshooting/index
+learning/index
 ```
